@@ -1,0 +1,12 @@
+# создаем ветки
+git branch develop
+git branch feature/add-dag
+# пушим созданные ветки в удаленный репозиторий
+git push -u origin develop
+# переходим в ветку feature/add-dag
+git checkout feature/add-dag
+# добавляем необходимые файлы
+git add filename
+git commit -m "Commit description"
+# пушим изменения в ветку feature/add-dag
+git push
